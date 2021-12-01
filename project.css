@@ -1,0 +1,141 @@
+*{  padding: 0px;
+    margin: 0px;
+}
+.head{
+    height: 140px;
+    width: 100%;
+    background: rgb(64, 64, 64);
+}  
+.head .top{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+input{
+    height: 20px;
+    background: rgb(24, 24, 24);
+    color: white;
+    border: 1px solid white;
+}
+.btn{
+    background: rgb(240, 243, 52);
+    color:black;
+    margin-right: 75px;
+    border:solid rgb(195, 205, 50);
+}
+.logo{
+    height: 60px;
+    width: 80px;
+    padding-left: 78px;
+    padding-top: 11px;
+}
+.head .bottom{
+    height: 20px;
+    padding: 18px;
+    margin-top: 7px;
+    background: rgb(24, 24, 24);
+    color: white;
+    margin-inline: 77px;
+}
+.head .bottom li{
+    display: inline-block;
+    padding: 1px 60px;
+    text-decoration: underline;
+}
+
+
+
+
+
+.container1{
+    display: flex;
+    height: 360px;
+    width: 100%;
+    background:rgba(224, 244, 217, 0.3);
+    align-items: center;
+    justify-content: center;
+}   
+.container1 .boxleft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background: rgb(24, 24, 24);
+    margin-top: 20px;
+    color: white;
+}
+.container1 .boxleft h2{
+padding-top: 5px;
+}
+.container1 .boxleft p{
+    line-height: 25px;
+    padding: 15px;
+}
+.container1 .boxright{
+    height: 300px;
+    width: 900px;
+    background: rgb(64,64,64);
+    margin-top: 20px;
+    /* border: solid black; */
+}
+.container2{
+    display: flex;
+    height: 360px;
+    width: 100%;
+    background:rgba(224, 244, 217, 0.3);
+    align-items: center;
+    justify-content: center;
+}   
+.container2 .boxleft{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 448px;
+    background: rgba(160, 179, 255, 0.35);
+    border-bottom: 2px solid rgb(175, 172, 172);
+    border-top: 2px solid rgb(175, 172, 172);
+    border-left: 2px solid rgb(175, 172, 172);
+    justify-content: center;
+    align-items: center;
+
+}
+.container2 .boxleft p{
+    padding: 15px;
+}
+.container2 .boxright{
+    height: 300px;
+    width: 750px;
+    background: rgba(160, 179, 255, 0.35);
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: right;
+    border-bottom: 2px solid rgb(175, 172, 172);
+    border-top: 2px solid rgb(175, 172, 172);
+    border-right: 2px solid rgb(175, 172, 172);
+    /* border:2px solid rgb(185, 185, 185) */
+
+}
+.container2 .boxright .box1{
+    height: 170px;
+    width: 170px;
+    background: rgb(221, 198, 202);
+    margin: 20px;
+    border:3px solid whitesmoke ;
+}
+.container2 .boxright .box2{
+    height: 170px;
+    width: 170px;
+    background: rgb(207, 216, 87);
+    margin: 20px;
+    border:3px solid whitesmoke
+}
+.container2 .boxright .box3{
+    height: 170px;
+    width: 170px;
+    background: rgb(80, 199, 44);
+    margin: 20px;
+    border:3px solid whitesmoke
+}
